@@ -60,3 +60,9 @@ body{
 .wrapper #btnBox:checked ~ .btn-area .btn1 {
   display: none;
 }
+
+
+.dropdown .dropdown-toggle.show::after{
+ border-bottom: .3em solid;
+ border-top: 0;
+}
